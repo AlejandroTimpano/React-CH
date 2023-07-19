@@ -1,4 +1,4 @@
-//import { BiMenu } from 'react-icons/bi'
+import { BiMenu } from 'react-icons/bi'
 import './Menu.scss'
 import MenuList from './MenuList'
 import { useState} from 'react'
