@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "nombre": "Producto 1",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 1500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "verduleria",
-        "stock": 10
+        "nombre": "Camiseta Adidas Alternativa",
+        "descripcion": "Camiseta Adidas Alternativa Campeon del Mundo 3 Estrellas",
+        "precio": 29000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/156175-1600-auto?v=638230362604770000&width=1600&height=auto&aspect=true",
+        "category": "camisetas",
+        "stock": 20
     },
     {
         "id": 2,
-        "nombre": "Producto 2",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 2500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "verduleria",
-        "stock": 12
+        "nombre": "Camiseta Adidas mujer",
+        "descripcion": "Vestite como un campeón. A lo largo de la historia del fútbol, la Albiceleste ha representado un juego y un compromiso incomparables. Diseñada para hinchas, ofrece comodidad en todo momento gracias a su tejido suave con tecnología de absorción AEROREADY. La insignia de campeón del Mundo y la tercera estrella sobre el escudo confirman una victoria memorable. Al menos un 70% de este producto está hecho de una mezcla de materiales reciclados y renovables",
+        "precio": 27000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/156150-1600-auto?v=638212682093570000&width=1600&height=auto&aspect=true",
+        "category": "camisetas",
+        "stock": 22
     },
     {
         "id": 3,
-        "nombre": "Producto 3",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 3500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia",
+        "nombre": "BUZO ADIDAS ADN GRAPHIC CREW",
+        "descripcion": "Combinado con los colores inspirados en el kit de visitante, una pequeña insignia en el pecho de esta sudadera de fútbol adidas Argentina es todo lo que necesitas para respaldar a tu equipo.",
+        "precio": 35000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/155808-1600-auto?v=638089656866870000&width=1600&height=auto&aspect=true",
+        "category": "buzos",
         "stock": 10
     },
     {
         "id": 4,
-        "nombre": "Producto 4",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 4500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia",
-        "stock": 6
+        "nombre": "SHORT ADIDAS ESSENTIALS",
+        "descripcion": "UNOS SHORTS QUE MUESTRAN TU PASIÓN POR ARGENTINA",
+        "precio": 30000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/155809-1600-auto?v=638089659479500000&width=1600&height=auto&aspect=true",
+        "category": "shorts",
+        "stock": 8
     },
     {
         "id": 5,
-        "nombre": "Producto 5",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "carniceria",
-        "stock": 10
+        "nombre": "CAMPERA PARKA ARGENTINA",
+        "descripcion": "UNA CAMPERA IMPERMEABLE DE LA SELECCIÓN ARGENTINA, HECHA CON MATERIALES RECICLADOS",
+        "precio": 89000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/156068-1600-auto?v=638188032665230000&width=1600&height=auto&aspect=true",
+        "category": "camperas",
+        "stock": 15
     },
     {
         "id": 6,
-        "nombre": "Producto 6",
-        "descripcion": "Lorem ipsum ...",
-        "precio": 6500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "perfumeria",
+        "nombre": "CAMPERA ADIDAS ANTHEM",
+        "descripcion": "UNA CAMPERA DE LA SELECCIÓN ARGENTINA CREADA PARA LA UNIÓN Y CONFECCIONADA CON PARLEY OCEAN PLASTIC.",
+        "precio": 44000,
+        "img": "https://afaar.vtexassets.com/arquivos/ids/156024-1600-auto?v=638133093080000000&width=1600&height=auto&aspect=true",
+        "category": "camperas",
         "stock": 20
     }
 ]
