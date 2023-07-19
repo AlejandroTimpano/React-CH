@@ -1,22 +1,29 @@
 import { Header } from "./components/Header/Header"
-import './App.css'
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
-import reactIcon from './assets/react.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import Contacto from "./components/Contacto/Contacto";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import './App.css'
 
 function App() {
 
   return (
-      <div>
-        <Header />
-        <ItemListContainer saludo={"Bienvenidos"}/>
+    <BrowserRouter>
+        <Header />        
 
-        <img src="/public/vite.svg" alt="una imagen" />
-        <img src={reactIcon} alt="una imagen" />
+        <Routes>
+          <Route path="/" element={ <ItemListContainer /> }/>
+          <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
+          <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
+          <Route path="/contacto" element={ <Contacto /> }/>
+          <Route path="/pokeapi" element={ <PokeApi /> }/>
+          {/* <Route path="*" element={ <Error404 /> }/> */}
+          <Route path="*" element={ <Navigate to="/"/> }/>
+        </Routes>
 
-        <Button variant="dark">Click</Button>
-      </div>
+        {/* <Footer /> */}
+    </BrowserRouter>
   )
 }
 
