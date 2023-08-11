@@ -1,15 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
+import { getFirestore } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBjLE8VNe8Fa0bvGcLaCDzVhCykcEFwYoc",
-  authDomain: "rj-55245.firebaseapp.com",
-  projectId: "rj-55245",
-  storageBucket: "rj-55245.appspot.com",
-  messagingSenderId: "181204292496",
-  appId: "1:181204292496:web:f1b30a630eaa1956525915"
+  apiKey: "AIzaSyBFKfuIs3PBSwfezjhT8FbOs9XAYRlIs0M",
+  authDomain: "final-react-timpano.firebaseapp.com",
+  projectId: "final-react-timpano",
+  storageBucket: "final-react-timpano.appspot.com",
+  messagingSenderId: "134115094915",
+  appId: "1:134115094915:web:85c0bda501482f549846b6"
 };
 
 // Initialize Firebase

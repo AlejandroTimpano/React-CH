@@ -10,33 +10,33 @@ import { DarkModeProvider } from "./context/DarkModeContext";
 import CartView from "./components/CartView/CartView";
 import Checkout from "./components/Checkout/Checkout";
 
-
 function App() {
 
   return (
-
     <DarkModeProvider>
-    <CartProvider>
+      <CartProvider>
 
-    <BrowserRouter>
-        <Header />        
+        <BrowserRouter>
+            <Header />        
 
-        <Routes>
-          <Route path="/" element={ <ItemListContainer /> }/>
-          <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
-          <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
-          <Route path="/contacto" element={ <Contacto /> }/>
-          <Route path="/cart" element={ <CartView /> }/>
-          <Route path="/checkout" element={ <Checkout /> }/>
-          {/* <Route path="*" element={ <Error404 /> }/> */}
-          <Route path="*" element={ <Navigate to="/"/> }/>
-        </Routes>
+            <Routes>
+              <Route path="/" element={ <ItemListContainer /> }/>
+              <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>
+              <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
+              <Route path="/contacto" element={ <Contacto /> }/>
+              <Route path="/cart" element={ <CartView /> }/>
+              <Route path="/checkout" element={ <Checkout /> }/>
+              {/* <Route path="*" element={ <Error404 /> }/> */}
+              <Route path="*" element={ <Navigate to="/"/> }/>
+            </Routes>
 
-        {/* <Footer /> */}
-    </BrowserRouter>
+            {/* <Footer /> */}
+        </BrowserRouter>
 
-   </CartProvider>
-   </DarkModeProvider>
+      </CartProvider>
+    </DarkModeProvider>
+
+
   )
 }
 
