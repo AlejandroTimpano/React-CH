@@ -6,7 +6,7 @@ const ItemList = ({productos}) => {
 
     return (
         <div className="container catalogo__contenedor">
-            <h2 className="text-blue-800 text-4xl">Productos</h2>
+            <h2 className="text-blue-800 text-4xl text-center">Productos</h2>
             <hr/>
            
            <div className='flex flex-row flex-wrap justify-center gap-2'>

@@ -1,0 +1,16 @@
+.bg-custom {
+    background-color: #0c87eb;
+    border-radius: 15%;
+}
+.bg-custom2 {
+    background-color: #000000;
+    border-radius: 3%;
+}
+.btn-custom {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .btn-custom:hover {
+    background-color: #0c87eb;
+    color: #ffffff;
+  }

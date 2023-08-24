@@ -5,7 +5,7 @@ const Loader = () => {
 
     return (
         <div className='loader'>
-            <Spinner animation="grow" variant="primary"/>
+            <Spinner animation="border" variant="dark"/>
         </div>
     )
 }

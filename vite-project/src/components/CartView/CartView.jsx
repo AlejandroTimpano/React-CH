@@ -11,7 +11,7 @@ const CartView = () => {
     if (cart.length === 0) {
         return (
             <div className="container my-5">
-                <h2 className="text-4xl">Tu carrito está vacío :(</h2>
+                <h2 className="text-4xl">Tu carrito está vacío, apurate las prendas se acaban!</h2>
                 <hr/>
                 <Link to="/" className="btn btn-success">Ir a comprar</Link>
             </div>
@@ -20,7 +20,7 @@ const CartView = () => {
 
     return (
         <div className="container my-5">
-            <h2 className="text-4xl">Tu compra</h2>
+            <h2 className="text-blue-800 text-4xl text-center">Tu compra</h2>
             <hr/>
 
             {

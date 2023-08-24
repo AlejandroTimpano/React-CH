@@ -1,0 +1,22 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    height: auto;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    background: #163681;
+    color: azure;
+    align-items: center;
+    
+}
+
+.footer__logo {
+      
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-size: 120%;
+    padding: 1%;
+    font-family:'Oswald', sans-serif;
+}

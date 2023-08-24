@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  body {
+    background: linear-gradient(
+      180deg,
+      rgb(252, 252, 252) 0%,
+      rgba(164, 164, 165, 0.671) 15%,
+      rgb(98, 106, 116) 30%,
+      rgb(26, 73, 87) 45%,
+      rgb(13, 18, 34) 100%
+    );
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  a:hover{
+    color: grey;
+  }

@@ -1,4 +1,4 @@
-import { BiMenu } from 'react-icons/bi'
+import { BiMenuAltRight } from 'react-icons/bi'
 import './Menu.scss'
 import MenuList from './MenuList'
 import { useState} from 'react'
@@ -17,7 +17,7 @@ const Menu = () => {
     return (
         <div className={showMenu ? "menu-active" : ""}> 
             <div>
-                <BiMenu onClick={handleOpen} className='text-white text-4xl cursor-pointer'/>
+                <BiMenuAltRight onClick={handleOpen} className='text-white text-4xl cursor-pointer'/>
             </div>
     
             <div className='menu__backdrop' onClick={handleClose}>

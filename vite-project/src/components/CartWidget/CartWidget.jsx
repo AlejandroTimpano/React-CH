@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import {FaShoppingCart} from 'react-icons/fa'
+import {FaShoppingBag} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { CartContext } from '../../context/CartContext'
 
@@ -10,7 +10,7 @@ const CartWidget = () => {
 
     return (
         <Link to="/cart" className='text-white text-3xl cursor-pointer flex gap-1'>
-            <FaShoppingCart />
+            <FaShoppingBag />
             <span>{totalCantidad()}</span>
         </Link>
     )

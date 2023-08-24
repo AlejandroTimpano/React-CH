@@ -14,7 +14,7 @@ const ItemCount = ({max, cantidad, setCantidad, agregar}) => {
         <div>
             <button 
                 onClick={handleRestar} 
-                // className={`btn mx-2 ${cantidad === 5 ? "boton-5" : ''} ${cantidad === 1 ? "btn-outline-danger" : "btn-outline-primary"}`}
+            
                 className={clases(
                     "btn",
                     "mx-2",

@@ -28,8 +28,6 @@ const Checkout = () => {
 
     const handleSubmit = async (values) => {
         setLoading(true)
-        // validaciones de formulario
-        // if (!validaciones) return
 
         const orden = {
             cliente: values,
@@ -70,12 +68,6 @@ const Checkout = () => {
             console.log(outOfStock)
         }
         
-        // addDoc(ordersRef, orden)
-        //     .then((doc) => {
-        //         console.log(doc.id)
-        //         vaciarCarrito()
-        //         setOrderId(doc.id)
-        //     })
         setLoading(false)
     }
 

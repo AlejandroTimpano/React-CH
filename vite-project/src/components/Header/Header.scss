@@ -1,18 +1,18 @@
 .header {
-  // background-color: rgb(64, 110, 235);
 
   .header__container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     .header__logo {
       font-size: 40px;
       font-weight: 700;
-      color: white;
+      color: rgb(0, 0, 0);
+      font-family:'Oswald', sans-serif;
     }
 
     .navbar {
@@ -30,8 +30,4 @@
       }
     }
   }
-}
-
-.header-poke {
-  background-color: rgb(229, 15, 15);
 }
